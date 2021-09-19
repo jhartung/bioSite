@@ -30,7 +30,7 @@ h3 {
     
 }
 
-.headerlogo {
+#headerlogo {
     height: 150px;
     float: left;
     padding-left: 5%;
@@ -90,7 +90,7 @@ a:hover {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    margin: 2em;
+    margin: auto;
     text-align: center;
 }
 
@@ -99,24 +99,52 @@ a:hover {
     height: 20em;
     border-style: solid;
     margin: 1em;
-    /*float: left;
-    position: relative;
-    */
     display: flex;
     flex-direction: column;
 }
 
 .image-caption {
-    margin-top: auto;
+    margin: auto;
+    bottom: 1em;
+    position: relative;
+    font-family: "Montserrat", serif;
 }
 
-.about-profile-image {
-    width: 15em;
-    height: 15em;
-    border-style: solid;
-    float: left;
-    margin: 0em 1em 1em 0em;
+#profile-image-caption {
+    text-align: center;
+    position: relative;
+    bottom: 1.5em;
+    font-family: 'Pacifico', cursive;
 }
+
+#about-profile-image-wrapper {
+    width: 12em;
+    height: 14em;
+    border-style: solid;
+    border-width: .5px;
+    float: left;
+    margin: 1em 2em 1em 0em;
+    background-color: white;
+    padding: 1em 1em 1em 1em;
+    transform: rotate(-6deg);
+    box-shadow: 10px 10px 5px 1px rgb(201, 200, 200);
+}
+
+#about-profile-image {
+    width: 12em;
+    height: 12em;
+    border-style: none;
+    margin: auto auto 2em auto;
+    position: relative;
+}
+
+#profile_image {
+    margin: auto;
+    width: 12em;
+    height: auto;
+
+}
+
 
 .about {
     width:90%;
@@ -125,13 +153,20 @@ a:hover {
 
 footer {
     width: 100%;
-    height: 2em;
+    height: auto;
     background-color: #88242C;   
-    color:white;
+    margin: .5em;
+    position: relative;
+       
+}
+
+#footer-copy {
+    padding: .5em;
     text-align: center;
-    margin: auto;
+    color:white;
+    position: relative;
     font: 'Roboto', sans-serif;
-    
+    font-style: italic;
 }
 
 .footer a:link{
@@ -141,6 +176,22 @@ footer {
     color:white;
 }
 
+.footer a:hover{
+    color: #e1ae45;
+}
+
 .footer a:active{
     color:white;
+}
+
+.footer a {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+    display: inline-block;
+    box-shadow: 0px 2px 12px 1px rgba(0,0,0,0.7);
+
 }

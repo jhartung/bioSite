@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="header">
-            <img src="images/MugshotMaven_Logo.png" alt="Mugshot Maven" class="headerlogo">
+            <img src="images/MugshotMaven_Logo.png" alt="Mugshot Maven" id="headerlogo">
            <div class="nav">
             <ul>    
                 <li><a href="index.html">Home</a></li>   
@@ -23,7 +23,13 @@
             <h1>Who is Mugshot Maven?</h1>
         </div>
         <div class="about">
-            <div class="about-profile-image">
+            <div id="about-profile-image-wrapper">
+                <div id="about-profile-image">
+                    <img src="images/profile_image.jpg" alt="Meghan Hartung Profile Image" id="profile_image">
+                </div>
+                <div id="profile-image-caption">
+                    <p>Meghan Hartung</p>
+                </div>
             </div>
             <p>
             “Mugshot Maven,” aka Meghan Hartung, is an avid traveler, photographer, and connoisseur of great beers. Her Instagram page showcases artistic images of beer and breweries, and was started in 2017 to document her journey into the photography, craft beer, and homebrewing world. While the Instagram page began as a hobby and creative outlet combining Meghan’s passions (beer, photography, and travel), it quickly grew into much more.
@@ -44,7 +50,11 @@
         
         <footer>
             <div class="footer">
-            <p>&copy; 2021, <a href="https://meghanhartungphotography.smugmug.com/" target="_blank">Meghan Hartung Photography</a></p>
+                <div id="footer-copy">
+                    <p>&copy; 2021, <a href="https://meghanhartungphotography.smugmug.com/" target="_blank">Meghan Hartung Photography</a></p>
+                    <a href="https://www.instagram.com/mugshotmaven/" target="_blank"><img src="images/Instagram_icon.png" alt="Mugshot Maven Instagram" class="icon"></a>
+                    <a href="https://www.facebook.com/MugshotMaven" target="_blank"><img src="images/facebook_icon.png" alt="Mugshot Maven Facebook" class="icon"></a>
+                </div>
             </div>
         </footer>                  
     </body>
