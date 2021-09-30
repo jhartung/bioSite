@@ -200,7 +200,7 @@ footer {
     font-style: italic;
 }
 
-footer a, footer a:visited, footer a:active {
+footer a:link, footer a:visited, footer a:active {
     color:white;
 }
 
